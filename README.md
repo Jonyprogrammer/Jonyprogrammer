@@ -73,6 +73,8 @@
 ## 📂 Repositories
 
 <!-- REPO-LIST:START -->
+- [Jony-Portfolio](https://github.com/Jonyprogrammer/Jony-Portfolio)
+- [Jonyprogrammer](https://github.com/Jonyprogrammer/Jonyprogrammer)
 <!-- REPO-LIST:END -->
 
 ---
