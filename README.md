@@ -4,7 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=900&color=39FF14&center=true&vCenter=true&width=800&lines=Salom%2C+men+Jonibek+Khusnidinov!;Xush+kelibsiz!" alt="typing intro"/>
 </p>
 
-
 <p align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="36" height="36" alt="waving hand"/>
   <a href="mailto:jonibekhusnidinov10@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -12,6 +11,13 @@
   <a href="https://jony-portfolio.netlify.app/portfolio/index.html"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=Jonyprogrammer&style=for-the-badge&color=yellow" alt="views"/>
 </p>
+
+---
+
+⏰ Hozirgi vaqt:  
+<!--TIME_SECTION_START-->
+Hali hisoblanmadi...
+<!--TIME_SECTION_END-->
 
 ---
 
