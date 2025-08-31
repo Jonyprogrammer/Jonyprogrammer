@@ -16,7 +16,7 @@
 ---
 
 ### 👨‍💻 Haqimda
-- 🔭 Hozirda: **Jony-Portfolio** loyihasi ustida ishlayapman  
+- 🔭 Hozirda: **MyFinance** loyihasi ustida ishlayapman  
 - 🌱 O‘rganayapman: **Python (Django), PostgreSQL, SCSS**  
 - 💬 So‘rashingiz mumkin: **HTML, CSS, JS, Bootstrap, Python, Django**  
 - ⚡ Qiziqarli fakt: **Kundalik commit — eng yaxshi odat**  
