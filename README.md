@@ -70,15 +70,9 @@
 
 ---
 
-## 📂 Featured Projects
-
-<p align="center">
+## 📂 Repositories
 <!-- REPO-LIST:START -->
-  <a href="https://github.com/username/repo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=username&repo=repo&theme=radical" />
-  </a>
 <!-- REPO-LIST:END -->
-</p>
 
 ---
 
