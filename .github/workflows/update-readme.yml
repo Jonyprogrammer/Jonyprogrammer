@@ -2,8 +2,8 @@ name: Update README with repo list
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # har kuni UTC 00:00 da yangilansin (o'zgartiring)
-  workflow_dispatch:     # Actions → Run workflow bilan qo'lda ham ishlaydi
+    - cron: "0 0 * * *"   # har kuni UTC 00:00 da yangilanadi
+  workflow_dispatch:       # qo'lda ham ishga tushirish mumkin
 
 permissions:
   contents: write
@@ -17,47 +17,29 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true
 
-      - name: Generate repo list (write repos.md)
+      - name: Generate repo list (repos.md)
         id: gen
         uses: actions/github-script@v6
         with:
           script: |
-            // olish: foydalanuvchining (owner) repolarini list qiladi
             const repos = await github.paginate(github.rest.repos.listForUser, {
               username: context.repo.owner,
               type: 'owner',
               per_page: 100
             });
 
-            // faqat public repolarni ko'rsatadi; agar private ham kerak bo'lsa, buni o'zgartiring
-            const publicRepos = repos.filter(r => r.private === false);
+            const publicRepos = repos.filter(r => !r.private);
 
-            // kerakli format: "- [repo-name](https://github.com/owner/repo)"
-            const md = publicRepos.map(r => `- [${r.name}](${r.html_url})`).join('\n') || '_(No public repositories)_';
-            require('fs').writeFileSync('repos.md', md, 'utf8');
+            const md = publicRepos
+              .map(r => `- [${r.name}](${r.html_url})`)
+              .join('\n') || '_(No public repositories yet)_';
+
+            require('fs').writeFileSync('repos.md', md);
             return md;
 
       - name: Insert repo list into README
-        run: |
-          python - <<'PY'
-import io,sys
-rfile='README.md'
-s = open(rfile, 'r', encoding='utf-8').read() if __import__('os').path.exists(rfile) else ''
-repos = open('repos.md','r',encoding='utf-8').read().strip()
-start='<!-- REPO-LIST:START -->'
-end='<!-- REPO-LIST:END -->'
-if start in s and end in s:
-    pre,rest = s.split(start,1)
-    _,post = rest.split(end,1)
-    new = pre + start + "\n" + repos + "\n" + end + post
-else:
-    # markerlar topilmasa — oxiriga qo'shadi
-    new = s + "\n\n" + start + "\n" + repos + "\n" + end + "\n"
-open(rfile,'w',encoding='utf-8').write(new)
-print('README updated')
-PY
+        run: python .github/scripts/update_readme.py
 
       - name: Commit & push changes
         env:
