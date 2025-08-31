@@ -2,29 +2,32 @@ name: Update Time Badge
 
 on:
   schedule:
-    - cron: "0 * * * *"   # har soatda
-  workflow_dispatch:
+    - cron: '0 * * * *'  # har soatda ishga tushadi
+  workflow_dispatch:      # qo'lda ishga tushirish imkoniyati
 
 jobs:
-  build:
+  update-badge:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
-      - name: Run update_time.py
+      - name: Install dependencies
+        run: pip install pytz
+
+      - name: Update badge
         run: python .github/scripts/update_time.py
 
-      - name: Commit and push
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "⏰ Update time badge"
+          git add .github/scripts/TIME_BADGE.md
+          git commit -m "Update badge [skip ci]" || echo "No changes to commit"
           git push
