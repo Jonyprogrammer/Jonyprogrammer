@@ -79,10 +79,12 @@
 
 ## 📂 Repozitoriyalar
 <!-- REPO-LIST:START -->
+[![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=CreativeMenu&theme=radical)](https://github.com/Jonyprogrammer/CreativeMenu)
+[![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=NavigationNavbar&theme=radical)](https://github.com/Jonyprogrammer/NavigationNavbar)
+[![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=GenerateRandomNumber&theme=radical)](https://github.com/Jonyprogrammer/GenerateRandomNumber)
+[![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=TodoList&theme=radical)](https://github.com/Jonyprogrammer/TodoList)
 [![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=LoginPage&theme=radical)](https://github.com/Jonyprogrammer/LoginPage)
-
 [![Jonyprogrammer](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jonyprogrammer&theme=radical)](https://github.com/Jonyprogrammer/Jonyprogrammer)
-
 [![Jony-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=radical)](https://github.com/Jonyprogrammer/Jony-Portfolio)
 <!-- REPO-LIST:END -->
 
