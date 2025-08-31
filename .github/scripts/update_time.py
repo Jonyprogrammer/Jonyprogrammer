@@ -1,20 +1,21 @@
 from datetime import datetime
+import pytz
+import os
 
-# README ni o‘qiymiz
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
+# Toshkent vaqti (GMT+5)
+tz = pytz.timezone("Asia/Tashkent")
+now = datetime.now(tz)
 
-# Hozirgi vaqt (UTC)
-current_time = datetime.utcnow().strftime("%H:%M:%S")
+current_time = now.strftime("%H:%M")
+current_date = now.strftime("%Y-%m-%d")
 
-# Yangi badge
-new_badge = f"![Current Time](https://img.shields.io/badge/time-{current_time}%20UTC-brightgreen?style=for-the-badge&logo=clock)"
+# Badge faylini scripts ichida yaratish
+badge_path = os.path.join(".github", "scripts", "TIME_BADGE.md")
+badge_content = f"""
+![Time Badge](https://img.shields.io/badge/Time-{current_time}-brightgreen?style=for-the-badge) ![Today Badge](https://img.shields.io/badge/Today-{current_date}-blue?style=for-the-badge)
+"""
 
-# README ichidagi eski badge’ni yangisiga almashtiramiz
-new_readme = readme.split("<!--TIME_SECTION_START-->")[0] \
-    + f"<!--TIME_SECTION_START-->\n{new_badge}\n<!--TIME_SECTION_END-->" \
-    + readme.split("<!--TIME_SECTION_END-->")[1]
+with open(badge_path, "w") as f:
+    f.write(badge_content)
 
-# Yangilangan README’ni saqlaymiz
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(new_readme)
+print(f"Badge yangilandi: {badge_path}")
