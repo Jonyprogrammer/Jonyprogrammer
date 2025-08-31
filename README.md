@@ -1,7 +1,7 @@
 <!-- Profil README - Jonyprogrammer -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=900&color=F72585&center=true&vCenter=true&width=800&lines=Salom%2C+men+Jonibek+Khusnidinov!;Full-Stack+Dasturchi+%7C+Open+Source+%7C+Doimiy+O‘rganuvchi" alt="typing intro"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=900&color=F72585&center=true&vCenter=true&width=800&lines=Salom%2C+men+Jonibek+Khusnidinov!;" alt="typing intro"/>
 </p>
 
 <p align="center">
