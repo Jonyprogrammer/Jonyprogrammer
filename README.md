@@ -1,8 +1,9 @@
 <!-- Profil README - Jonyprogrammer -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=900&color=F72585&center=true&vCenter=true&width=800&lines=Salom%2C+men+Jonibek+Khusnidinov!;" alt="typing intro"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=900&color=39FF14&center=true&vCenter=true&width=800&lines=Salom%2C+men+Jonibek+Khusnidinov!;Xush+kelibsiz!" alt="typing intro"/>
 </p>
+
 
 <p align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="36" height="36" alt="waving hand"/>
