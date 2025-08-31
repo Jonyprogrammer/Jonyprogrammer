@@ -16,7 +16,7 @@
 
 ⏰ Hozirgi vaqt:  
 <!--TIME_SECTION_START-->
-2025-08-31 10:32:54 UTC
+![Current Time](https://img.shields.io/badge/time-00:00:00%20UTC-brightgreen?style=for-the-badge&logo=clock)
 <!--TIME_SECTION_END-->
 
 ---
