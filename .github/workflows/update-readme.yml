@@ -2,10 +2,10 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 * * * *"   
-  workflow_dispatch:       
+    - cron: "0 * * * *"   # Har soatda avtomat ishlaydi
+  workflow_dispatch:       # Qo‘lda boshlab yuborish uchun
   push:
-    branches: [ "main" ]  
+    branches: [ "main" ]   # main branchga commit bo‘lsa ham ishlaydi
 
 jobs:
   update-readme:
@@ -18,6 +18,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
 
       - name: Run update script
         run: python .github/scripts/update_readme.py
