@@ -70,12 +70,15 @@
 
 ---
 
-## 📂 Repositories
+## 📂 Featured Projects
 
+<p align="center">
 <!-- REPO-LIST:START -->
-- [Jony-Portfolio](https://github.com/Jonyprogrammer/Jony-Portfolio)
-- [Jonyprogrammer](https://github.com/Jonyprogrammer/Jonyprogrammer)
+  <a href="https://github.com/username/repo">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=username&repo=repo&theme=radical" />
+  </a>
 <!-- REPO-LIST:END -->
+</p>
 
 ---
 
