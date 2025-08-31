@@ -79,6 +79,8 @@
 
 ## 📂 Repozitoriyalar
 <!-- REPO-LIST:START -->
+[![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=LoginPage&theme=radical)](https://github.com/Jonyprogrammer/LoginPage)
+
 [![Jonyprogrammer](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jonyprogrammer&theme=radical)](https://github.com/Jonyprogrammer/Jonyprogrammer)
 
 [![Jony-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=radical)](https://github.com/Jonyprogrammer/Jony-Portfolio)
