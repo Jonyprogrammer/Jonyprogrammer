@@ -72,6 +72,9 @@
 
 ## 📂 Repositories
 <!-- REPO-LIST:START -->
+[![Jonyprogrammer](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jonyprogrammer&theme=radical)](https://github.com/Jonyprogrammer/Jonyprogrammer)
+
+[![Jony-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=radical)](https://github.com/Jonyprogrammer/Jony-Portfolio)
 <!-- REPO-LIST:END -->
 
 ---
