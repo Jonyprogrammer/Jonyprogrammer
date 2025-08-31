@@ -1,15 +1,16 @@
 import os
+import requests
 
-username = "Jonyprogrammer"  # GitHub usernameingiz shu yerda
+username = "Jonyprogrammer"  
 rfile = "README.md"
 
-# Repos listini olish
-repos = open("repos.md", "r", encoding="utf-8").read().strip().splitlines()
+# GitHub API orqali public repolarni olish
+url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated"
+repos = requests.get(url).json()
 
-# Stats card format
 cards = []
 for repo in repos:
-    repo_name = repo.split("/")[-1]  # faqat repo nomini ajratamiz
+    repo_name = repo["name"]
     card = f'[![{repo_name}](https://github-readme-stats.vercel.app/api/pin/?username={username}&repo={repo_name}&theme=radical)](https://github.com/{username}/{repo_name})'
     cards.append(card)
 
