@@ -1,56 +1,31 @@
-name: Update README with repo list
+name: Update README
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # har kuni UTC 00:00 da yangilanadi
-  workflow_dispatch:       # qo'lda ham ishga tushirish mumkin
-
-permissions:
-  contents: write
+    - cron: "0 * * * *"   
+  workflow_dispatch:       
+  push:
+    branches: [ "main" ]  
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          fetch-depth: 0
+          python-version: "3.x"
 
-      - name: Generate repo list (repos.md)
-        id: gen
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const repos = await github.paginate(github.rest.repos.listForUser, {
-              username: context.repo.owner,
-              type: 'owner',
-              per_page: 100
-            });
-
-            const publicRepos = repos.filter(r => !r.private);
-
-            const md = publicRepos
-              .map(r => `- [${r.name}](${r.html_url})`)
-              .join('\n') || '_(No public repositories yet)_';
-
-            require('fs').writeFileSync('repos.md', md);
-            return md;
-
-      - name: Insert repo list into README
+      - name: Run update script
         run: python .github/scripts/update_readme.py
 
-      - name: Commit & push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update README repo list"
-            git push
-          fi
+          git commit -m "Update README with repo cards" || echo "No changes"
+          git push
