@@ -3,7 +3,7 @@ name: Generate Snake
 on:
   schedule: # Har kuni yarim tunda ishlaydi
     - cron: "0 0 * * *"
-  workflow_dispatch: # Qo‘lda ham ishga tushirish mumkin
+  workflow_dispatch: # Qo‘lda ishga tushirish uchun
 
 permissions:
   contents: write
@@ -16,14 +16,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
-          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
