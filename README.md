@@ -16,7 +16,7 @@
 
 ⏰ Hozirgi vaqt:  
 <!--TIME_SECTION_START-->
-![Current Time](https://img.shields.io/badge/time-11:32:51%20GMT%2B5-brightgreen?style=for-the-badge&logo=clock&cacheSeconds=1759818771)
+![Current Time](https://img.shields.io/badge/time-12:21:25%20GMT%2B5-brightgreen?style=for-the-badge&logo=clock&cacheSeconds=1759821685)
 <!--TIME_SECTION_END-->
 
 
