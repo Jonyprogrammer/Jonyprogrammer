@@ -14,8 +14,6 @@
 
 ---
 
----
-
 ### 👨‍💻 Haqimda
 - 🔭 Hozirda: **MyFinance** loyihasi ustida ishlayapman  
 - 🌱 O‘rganayapman: **Python (Django), PostgreSQL, SCSS**  
