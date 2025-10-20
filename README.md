@@ -60,15 +60,6 @@
 
 ---
 
-### 📌 Tanlangan Repo
-<p align="center">
-  <a href="https://github.com/Jonyprogrammer/Jony-Portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=tokyonight" />
-  </a>
-</p>
-
----
-
 ### 📫 Aloqa
 - 📧 Email: **jonibekhusnidinov10@gmail.com**  
 - 💬 Telegram: [@Jony_programmer](https://t.me/Jony_programmer)  
