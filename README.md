@@ -69,25 +69,6 @@
 
 ---
 
-## 📂 Repozitoriyalar
-<!-- REPO-LIST:START -->
-[![Jonyprogrammer](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jonyprogrammer&theme=radical)](https://github.com/Jonyprogrammer/Jonyprogrammer)
-
-[![TodoList](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=TodoList&theme=radical)](https://github.com/Jonyprogrammer/TodoList)
-
-[![GenerateRandomNumber](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=GenerateRandomNumber&theme=radical)](https://github.com/Jonyprogrammer/GenerateRandomNumber)
-
-[![NavigationNavbar](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=NavigationNavbar&theme=radical)](https://github.com/Jonyprogrammer/NavigationNavbar)
-
-[![CreativeMenu](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=CreativeMenu&theme=radical)](https://github.com/Jonyprogrammer/CreativeMenu)
-
-[![LoginPage](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=LoginPage&theme=radical)](https://github.com/Jonyprogrammer/LoginPage)
-
-[![Jony-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=radical)](https://github.com/Jonyprogrammer/Jony-Portfolio)
-<!-- REPO-LIST:END -->
-
----
-
 ### 📫 Aloqa
 - 📧 Email: **jonibekhusnidinov10@gmail.com**  
 - 💬 Telegram: [@Jony_programmer](https://t.me/Jony_programmer)  
