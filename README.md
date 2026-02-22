@@ -69,6 +69,8 @@
 
 
 <!-- REPO-LIST:START -->
+[![chust-tuman-bot](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=chust-tuman-bot&theme=radical)](https://github.com/Jonyprogrammer/chust-tuman-bot)
+
 [![Jony-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=radical)](https://github.com/Jonyprogrammer/Jony-Portfolio)
 
 [![Jonyprogrammer](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jonyprogrammer&theme=radical)](https://github.com/Jonyprogrammer/Jonyprogrammer)
