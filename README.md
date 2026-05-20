@@ -52,9 +52,3 @@
 </p>
 
 ---
-
-### 📫 Aloqa
-- 📧 Email: **jonibekhusnidinov10@gmail.com**  
-- 💬 Telegram: [@Jony_programmer](https://t.me/Jony_programmer)  
-
----
