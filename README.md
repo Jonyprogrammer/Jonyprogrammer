@@ -67,18 +67,6 @@
 
 ---
 
-
-<!-- REPO-LIST:START -->
-[![Jonyprogrammer](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jonyprogrammer&theme=radical)](https://github.com/Jonyprogrammer/Jonyprogrammer)
-
-[![JDDoS](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=JDDoS&theme=radical)](https://github.com/Jonyprogrammer/JDDoS)
-
-[![chust-tuman-bot](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=chust-tuman-bot&theme=radical)](https://github.com/Jonyprogrammer/chust-tuman-bot)
-
-[![Jony-Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=Jony-Portfolio&theme=radical)](https://github.com/Jonyprogrammer/Jony-Portfolio)
-
-[![TodoList](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=TodoList&theme=radical)](https://github.com/Jonyprogrammer/TodoList)
-
 [![GenerateRandomNumber](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=GenerateRandomNumber&theme=radical)](https://github.com/Jonyprogrammer/GenerateRandomNumber)
 
 [![NavigationNavbar](https://github-readme-stats.vercel.app/api/pin/?username=Jonyprogrammer&repo=NavigationNavbar&theme=radical)](https://github.com/Jonyprogrammer/NavigationNavbar)
