@@ -56,6 +56,5 @@
 ### 📫 Aloqa
 - 📧 Email: **jonibekhusnidinov10@gmail.com**  
 - 💬 Telegram: [@Jony_programmer](https://t.me/Jony_programmer)  
-- 🌐 Portfolio: [jony-portfolio.netlify.app](https://jony-portfolio.netlify.app/portfolio/index.html)  
 
 ---
